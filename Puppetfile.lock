@@ -1,0 +1,35 @@
+FORGE
+  remote: https://forgeapi.puppetlabs.com
+  specs:
+    puppetlabs-java (1.5.0)
+      puppetlabs-stdlib (< 5.0.0, >= 2.4.0)
+    puppetlabs-stdlib (4.12.0)
+
+PATH
+  remote: ./local-modules/androidstudio/
+  specs:
+    jacobamason-androidstudio (0.0.1)
+
+PATH
+  remote: ./local-modules/cocos2dx/
+  specs:
+    jacobamason-cocos2dx (0.0.1)
+
+PATH
+  remote: ./local-modules/common/
+  specs:
+    jacobamason-common (0.0.1)
+
+PATH
+  remote: ./local-modules/localusers/
+  specs:
+    jacobamason-localusers (0.0.1)
+
+DEPENDENCIES
+  jacobamason-androidstudio (>= 0)
+  jacobamason-cocos2dx (>= 0)
+  jacobamason-common (>= 0)
+  jacobamason-localusers (>= 0)
+  puppetlabs-java (>= 0)
+  puppetlabs-stdlib (>= 0)
+
