@@ -4,6 +4,7 @@ forge "https://forgeapi.puppetlabs.com"
 
 mod 'puppetlabs-stdlib'
 mod 'puppetlabs-java'
+mod 'stankevich-python'
 
 mod 'jacobamason-androidstudio',
     :path => './local-modules/androidstudio/'
