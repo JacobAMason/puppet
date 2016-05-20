@@ -14,3 +14,4 @@ class androidstudio (
         require => Common::Wget["android-studio-ide-$buildNumber-linux.zip"],
     }
 }
+
