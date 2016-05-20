@@ -18,3 +18,6 @@ mod 'jacobamason-common',
 mod 'jacobamason-localusers',
     :path => './local-modules/localusers/'
 
+mod 'jacobamason-pycharm',
+    :path => './local-modules/pycharm/'
+
